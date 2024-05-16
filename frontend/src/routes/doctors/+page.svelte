@@ -101,9 +101,9 @@ La liste des médecins certifiés avec des années <br />d'expérience professio
   </div>
   <div class="cs_height_65"></div>
  <!-- App.svelte -->
-        <div class="cs_isotop cs_style1 cs_grid_view_wrap cs_isotop_col_3 cs_has_gutter_24" style="display: flex; flex-wrap: wrap;">
+        <div class="cs_isotop cs_style1 cs_grid_view_wrap cs_isotop_col_3 cs_has_gutter_24 doctors-list-al" style="display: flex; flex-wrap: wrap;">
             {#each medecins as medecin, index}
-                <div class="cs_isotop_item emergency" style="width: calc(33.333333% - 16px); margin: 8px;">
+                <div class="cs_isotop_item emergency doctors-list-al-doc"  style="width: calc(33.333333% - 16px); margin: 8px;">
                     <div class="cs_team cs_style_1 cs_type_2 text-center cs_radius_20 overflow-hidden">
                         <div class="cs_member_img">
                             <a href="doctor-details.html" class="d-block"><img src={`img/doctors/doctor_${medecin.id % 11}.png`} alt="Doctor"/></a>

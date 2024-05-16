@@ -27,8 +27,8 @@ let mobile =()=>{
                 </a>
                 <nav class="cs_nav">
                   <ul class="cs_nav_list {list}">
-                    <li ><a href="/">Acceuil</a></li>
-                    <li><a href="/doctors">Medecins</a></li>
+                    <li ><a on:click={mobile}  href="/">Acceuil</a></li>
+                    <li><a on:click={mobile} href="/doctors">Medecins</a></li>
                   </ul>
                   <span on:click={mobile} class="cs_menu_toggle {spancl}"><span></span></span>
                 </nav>

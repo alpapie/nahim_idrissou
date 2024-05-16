@@ -6864,6 +6864,12 @@ a.ui-button:active,
     right: 30px;
     color: #274760;
   }
+  .doctors-list-al{
+    display: block !important;
+  }
+  .doctors-list-al-doc{
+    width: 90% !important;
+  }
   .cs_menu_toggle span,
   .cs_menu_toggle span:before,
   .cs_menu_toggle span:after {
