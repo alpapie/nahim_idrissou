@@ -1,11 +1,11 @@
 <script>
   import { onMount } from "svelte";
-
+  import { PUBLIC_BACKEND_URL } from '$env/static/public';
   let medecins = [];
   let currentPage = 1;
 
   const fetchMedecins = async (page) => {
-    const response = await fetch(`http://localhost:3000/medecins?page=${page}`);
+    const response = await fetch(PUBLIC_BACKEND_URL+`?page=${page}`);
     const data = await response.json();
     return data;
   };
